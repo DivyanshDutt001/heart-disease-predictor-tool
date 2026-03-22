@@ -1,0 +1,40 @@
+{
+  "best_model": "Random Forest",
+  "accuracy": 1.0,
+  "auc": 1.0,
+  "cv_accuracy": 0.9817073170731707,
+  "needs_scaling": false,
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "all_results": {
+    "Random Forest": {
+      "acc": 1.0,
+      "auc": 1.0
+    },
+    "Gradient Boosting": {
+      "acc": 0.975609756097561,
+      "auc": 0.9876190476190476
+    },
+    "Logistic Regression": {
+      "acc": 0.8097560975609757,
+      "auc": 0.9298095238095239
+    },
+    "SVM": {
+      "acc": 0.926829268292683,
+      "auc": 0.9771428571428571
+    }
+  }
+}
